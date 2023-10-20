@@ -20,5 +20,5 @@ Set the URL of the request as: http://localhost:8080/.
 Submit the request to start the document validation process.
 
 
-** A basic page was created in react to make the calls to the server, but the cors problems continued. However the tests with postman work perfectly. I leave the repository so you can see the work done there. 
+** A basic page was created in react to make the calls to the server, but the cors problems continued. However the tests with postman work perfectly. I leave the repository so you can see the work done there. https://github.com/joulsCarvajal/pruebasreactapi.git
 
