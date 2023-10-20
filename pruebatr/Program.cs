@@ -142,7 +142,6 @@ namespace LevantaServer
                                 // Leer la respuesta como cadena
                                 string getResponseContent = await getResponse.Content.ReadAsStringAsync();
 
-                                // Puedes deserializar la respuesta JSON si es necesario
                                 var validationData = JsonSerializer.Deserialize<ValidationData>(getResponseContent);
 
                                 // Enviar la respuesta al cliente
@@ -181,7 +180,6 @@ public class RequestModel
 {
     public string account_id { get; set; }
     public string custom_type { get; set; }
-    // Otros campos según tus necesidades
 }
 
 public class TruoraResponse
@@ -199,5 +197,5 @@ public class TruoraInstructions
 
 public class ValidationData
 {
-    // Define las propiedades necesarias para la respuesta de validación completa
+    
 }
