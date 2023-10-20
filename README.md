@@ -1,4 +1,5 @@
-Document Validation API
+#Document Validation API
+
 This project is a document validation API that uses a specific access token, account_id and custom_type, along with .jpeg files of the identity document. The steps required to set up and run the API are described below.
 
 Requirements
