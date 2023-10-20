@@ -19,4 +19,3 @@ Create a new request using the POST method.
 Set the URL of the request as: http://localhost:8080/.
 Submit the request to start the document validation process.
 
-Translated with www.DeepL.com/Translator (free version)
